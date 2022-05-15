@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <title>Teodor Dechev's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div id="lang">
+        <a href="index-bg.html"><img src="images/bulgarian.png" alt="English"></a>
+      </div>
+      <a>
+        <h1 class="current title">Teodor Dechev</h1>
+      </a>
+      <nav id="nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </nav>
+    </header>
+
+    <main>
+      <section class="background-container">
+        <div class="mySlides">
+          <img src="images/3D designs by TD head.jpg" style="width: 100%" />
+        </div>
+        <div class="mySlides">
+          <img src="images/3d designs by TD head 2.jpg" style="width: 100%" />
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>Projects:</h2>
+        <div class="slideshow-container">
+          <div class="slides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="images/abstract.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption One</div> -->
+          </div>
+
+          <div class="slides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/sci fi scene portal.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Two</div> -->
+          </div>
+
+          <div class="slides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/donuts.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Three</div> -->
+          </div>
+
+          <div class="slides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/future glasses1.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Four</div> -->
+          </div>
+
+          <div class="slides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="images/expo project11.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Five</div> -->
+          </div>
+
+          <div class="slides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/3d glasses.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Six</div> -->
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h1>Copyrights &copy 2022 Teodor Dechev. All Rights Reserved.</h1>
+      <div class="icons">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script/background.js"></script>
+    <script src="script/projects.js"></script>
+  </body>
+</html>

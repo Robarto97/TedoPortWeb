@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <title>Контакти</title>
+  </head>
+  <body>
+    <header>
+      <div id="lang">
+        <a href="contact.html"><img src="images/english.png" alt="English"></a>
+      </div>
+      <a href="index-bg.html">
+        <h1 class="title">Теодор Дечев</h1>
+      </a>
+      <nav>
+        <li><a href="about-bg.html">За мен</a></li>
+        <li><a href="portfolio-bg.html">Портфолио</a></li>
+        <li><a class="current">Контакти</a></li>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <label for="name">Име: <span>*</span></label>
+        <input type="text" id="name" placeholder="Име..." required />
+        <label for="email">Имейл: <span>*</span></label>
+        <input type="email" id="email" placeholder="Имейл..." required />
+        <label for="subject">Тема: <span>*</span></label>
+        <input type="text" id="subject" placeholder="Тема..." required />
+        <label for="message">Съобщение: <span>*</span></label>
+        <textarea
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Напишете нещо..."
+          required
+        ></textarea>
+        <button id="send" type="submit">Изпрати</button>
+      </form>
+      
+      <aside>
+        <div class="email">
+          <span>Имейл</span>
+          <p>Пример</p>
+        </div>
+        <div class="phoneNum">
+          <span>Телефонен номер</span>
+          <p>Пример</p>
+        </div>
+        <div class="address">
+          <span>Адрес</span>
+          <p>Пример</p>
+        </div>
+      </aside>
+    </main>
+
+    
+
+    <footer>
+      <h1>Авторски права &copy 2022 Теодор Дечев. Всички права запазени.</h1>
+      <div class="icons">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

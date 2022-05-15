@@ -1,0 +1,51 @@
+@import url("http://fonts.cdnfonts.com/css/nulshock");
+@import url("http://fonts.cdnfonts.com/css/myriad-pro");
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+@import url("headfoot.css");
+
+:root {
+  --color-gray: #202020;
+  --color-purple: purple;
+}
+
+html{
+  font-family: "Myriad Pro", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+/* Section Projects*/
+.projects{
+    padding: 4rem 8rem 6rem;
+}
+.projects h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 26px;
+}
+
+.projects .sect_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.projects .sect_list .project_items{
+    width: 28%;
+}
+.projects .sect_list .project_items img{
+    width: 100%;
+}
+
+.current {
+    cursor: auto;
+}
+
+main .port_title{
+    margin-top: 2rem;
+    font-size: 26px;
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <div id="lang">
+        <a href="contact-bg.html"><img src="images/bulgarian.png" alt="English"></a>
+      </div>
+      <a href="index.html">
+        <h1 class="title">Teodor Dechev</h1>
+      </a>
+      <nav>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a class="current">Contact</a></li>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <label for="name">Name: <span>*</span></label>
+        <input type="text" id="name" placeholder="Name..." required />
+        <label for="email">Email: <span>*</span></label>
+        <input type="email" id="email" placeholder="Email..." required />
+        <label for="subject">Subject: <span>*</span></label>
+        <input type="text" id="subject" placeholder="Subject..." required />
+        <label for="message">Message: <span>*</span></label>
+        <textarea
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Write something..."
+          required
+        ></textarea>
+        <button id="send" type="submit">Send</button>
+      </form>
+      
+      <aside>
+        <div class="email">
+          <span>Email</span>
+          <p>Example</p>
+        </div>
+        <div class="phoneNum">
+          <span>Phone Number</span>
+          <p>Example</p>
+        </div>
+        <div class="address">
+          <span>Address</span>
+          <p>Example</p>
+        </div>
+      </aside>
+    </main>
+
+    
+
+    <footer>
+      <h1>Copyrights &copy 2022 Teodor Dechev. All Rights Reserved.</h1>
+      <div class="icons">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

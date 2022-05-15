@@ -1,0 +1,80 @@
+header {
+  background-color: var(--color-gray);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 3rem 1rem 1.5rem;
+}
+header #lang{
+    position: absolute;
+    top: 53%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+}
+
+header #lang a img {
+  width: 80%;
+}
+header a {
+  text-decoration: none;
+}
+header a .title {
+  color: var(--color-purple);
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Nulshock", sans-serif;
+  font-weight: bolder;
+}
+
+header nav {
+  display: flex;
+  gap: 2.25rem;
+  margin-right: 5rem;
+}
+header nav li {
+  font-family: "Nulshock", sans-serif;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+header nav li a {
+  text-decoration: none;
+  color: white;
+}
+header nav li a:hover {
+  color: var(--color-purple);
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-gray);
+  padding: 1.5rem;
+  position: relative;
+}
+footer h1 {
+  font-family: "Myriad Pro", sans-serif;
+  text-align: center;
+}
+footer .icons {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+footer .icons a {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+footer .icons a i {
+  font-size: 26px;
+}
+footer .icons a i:hover {
+  color: white;
+}
